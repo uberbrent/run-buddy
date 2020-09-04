@@ -12,3 +12,5 @@ https://uberbrent.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Brent M Johnson
+
+### &copy;2019 Run Buddy, Inc
