@@ -319,8 +319,37 @@ section h3 {
     justify-content: space-around;
 }
 
-.trainer img {
+.trainer-img {
     width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    background-size: cover;
+    position: relative;
+}
+
+.trainer-img h3 {
+    position: relative;
+    z-index: 5000;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.trainer-img h4 {
+    position: relative;
+    z-index: 5000;
+    font-size: 22px;
+}
+
+.trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 1.0)); 
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .trainer-bio {
@@ -340,6 +369,18 @@ section h3 {
 
 .trainer-bio p {
     font-size: 17px;
+}
+
+.trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+}
+
+.trainer-2 {
+    background-image: url("../images/trainer-2.jpg");
+}
+
+.trainer-3 {
+    background-image: url("../images/trainer-3.jpg");
 }
 
 /* Service Plans Grid */
@@ -499,7 +540,6 @@ footer a {
 
 section {
     padding: 60px;
-    text-align: center;
 }
 
 .flex-row {
